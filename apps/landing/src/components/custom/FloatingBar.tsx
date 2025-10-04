@@ -8,12 +8,13 @@ const FloatingBar = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
   
   return (
-    <nav className="fixed top-6 left-1/2 -translate-x-1/2 z-50 w-[95%] max-w-7xl">
+    <nav className="fixed top-6 left-1/2 -translate-x-1/2 z-50 w-[100%] max-w-7xl text-lg">
       <div className="flex items-center justify-between bg-white/90 backdrop-blur-md rounded-full shadow-lg px-9 py-5">
         {/* Logo */}
         <a href="/" className="text-4xl font-bold text-blue-500 shrink-0">
           C
         </a>
+        
 
         {/* Desktop Nav */}
         <div className="hidden md:flex gap-8 text-lg font-medium text-gray-800">
@@ -26,7 +27,7 @@ const FloatingBar = () => {
         </div>
 
         {/* Buttons - Desktop */}
-        <div className="hidden md:flex gap-3 items-center shrink-0">
+        <div className="hidden md:flex gap-3 items-center ">
           <a
             href="/signup"
             className="px-6 py-2.5 rounded-full bg-gray-100 hover:bg-gray-200 text-gray-800 font-medium transition-colors"
