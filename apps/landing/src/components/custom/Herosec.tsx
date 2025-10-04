@@ -2,8 +2,9 @@
 
 import Image from 'next/image'
 import React from 'react'
+import conshamock from "@/Resources/conshamock.svg";
   {/** will study all hero sections and revert back */}
-  import conshamock from "@/Resources/conshamock.svg";
+
 
 const Herosec = () => {
   return (
