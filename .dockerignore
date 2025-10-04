@@ -1,0 +1,27 @@
+# Git and OS files
+.git
+.DS_Store
+
+# Node dependencies and logs
+node_modules
+/apps/**/node_modules
+/packages/**/node_modules
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs & caches
+/apps/**/dist
+/apps/**/.next
+/apps/**/out
+/apps/**/.svelte-kit
+/target
+/src-tauri/target
+.turbo
+
+# IDE and environment files
+.vscode
+.idea
+*.env
+*.env.local
