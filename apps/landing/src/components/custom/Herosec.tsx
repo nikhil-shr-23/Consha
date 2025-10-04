@@ -1,7 +1,9 @@
 "use client"
 
+import Image from 'next/image'
 import React from 'react'
   {/** will study all hero sections and revert back */}
+  import conshamock from "@/Resources/conshamock.svg";
 
 const Herosec = () => {
   return (
@@ -9,6 +11,7 @@ const Herosec = () => {
     <div className='bg-gray-100 h-screen w-screen'>
       <div>
         <h1>hi</h1>
+        <Image src={conshamock} alt='hi' width={1200} height={700}/>
       </div>
 
     </div>
