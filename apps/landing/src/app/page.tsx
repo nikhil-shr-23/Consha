@@ -9,6 +9,7 @@ export default function Home() {
       <FloatingBar/>
       <Herosec/>
       
+      
 
     </div>
   );
