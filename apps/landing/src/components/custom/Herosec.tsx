@@ -3,6 +3,7 @@
 import Image from 'next/image'
 import React from 'react'
 import conshamock from "@/Resources/conshamock.svg";
+import { TextReveal } from './textReveal';
   {/** will study all hero sections and revert back */}
 
 
@@ -13,6 +14,9 @@ const Herosec = () => {
       <div>
         <h1>hi</h1>
         <Image src={conshamock} alt='hi' width={1200} height={700}/>
+      </div>
+      <div>
+        <TextReveal>Create. Share. Inspire.</TextReveal>
       </div>
 
     </div>
