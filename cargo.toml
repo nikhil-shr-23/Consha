@@ -1,7 +1,7 @@
 [workspace]
 
 members = [
-  "apps/desktop-app/src-tauri",
+
    "apps/desktop-app-frontend/src-tauri"
 
   
