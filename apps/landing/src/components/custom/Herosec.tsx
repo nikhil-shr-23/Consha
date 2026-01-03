@@ -10,13 +10,15 @@ import { TextReveal } from './textReveal';
 const Herosec = () => {
   return (
   
-    <div className='bg-gray-100 h-screen w-screen'>
-      <div>
-        <h1>hi</h1>
+<div className='bg-gray-100 h-screen w-screen flex flex-col items-end'>
+  {/**Dividing the hero page into two divs, one with the laptop mock and the other with following -  */}
+      <div className='ml-auto'>
+       
         <Image src={conshamock} alt='hi' width={1200} height={700}/>
       </div>
+      {/** this div below will have all the text etc, starting with the layout of a badge, heading, subheading and 2 buttons - download for free, upgrade to pro  */}
       <div>
-        <TextReveal>Create. Share. Inspire.</TextReveal>
+        
       </div>
 
     </div>

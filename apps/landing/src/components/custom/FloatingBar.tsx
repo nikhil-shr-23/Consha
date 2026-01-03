@@ -16,12 +16,12 @@ const FloatingBar = () => {
 
         {/* Desktop Nav */}
         <div className="hidden md:flex gap-5 text-sm font-medium text-gray-800">
-          <a href="/product" className="hover:text-blue-500 transition-colors">Product</a>
-          <a href="/download" className="hover:text-blue-500 transition-colors">Download</a>
-          <a href="/testimonials" className="hover:text-blue-500 transition-colors">Testimonials</a>
-          <a href="/help" className="hover:text-blue-500 transition-colors">Help</a>
-          <a href="/about" className="hover:text-blue-500 transition-colors">About</a>
-          <a href="/pricing" className="hover:text-blue-500 transition-colors">Pricing</a>
+          <a href="/product" className="hover:text-blue-500 hover:bg-blue-100 transition-colors">Product</a>
+          <a href="/download" className="hover:text-blue-500 hover:bg-blue-100 transition-colors">Download</a>
+          <a href="/testimonials" className="hover:text-blue-500 hover:bg-blue-100 transition-colors">Testimonials</a>
+          <a href="/help" className="hover:text-blue-500  hover:bg-blue-100 transition-colors">Help</a>
+          <a href="/about" className="hover:text-blue-500 hover:bg-blue-100 transition-colors">About</a>
+          <a href="/pricing" className="hover:text-blue-500 hover:bg-blue-100 transition-colors">Pricing</a>
         </div>
 
         {/* Buttons - Desktop */}

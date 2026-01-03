@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  web:
+    container_name: consha-web
+    build:
+      context: ..
+      dockerfile: infra/Dockerfile
+    ports:
+      - "8080:80"
+    restart: unless-stopped
